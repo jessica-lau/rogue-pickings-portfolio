@@ -1,0 +1,161 @@
+/***BASE STYLES***/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
+}
+
+/***GRID***/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 380px;
+    float: left;
+}
+
+/***HEADER***/
+
+header {
+    height: 120px;
+    border-bottom: solid #77a466 5px;
+    padding: 0 0 50px 0;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #000000;
+    padding: 70px 0 65px 0;
+    font-weight: bold;
+    margin: 0 0;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 65px 0;
+    font-weight: bold;
+    clear: both;
+    overflow: auto;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #77a466;
+    padding-left: 23px;
+}
+
+/***TOP SECTION***/
+
+#picture {
+    height: 575px;
+    background: url("../img/rogue-image.jpg") no-repeat;
+    background-size: cover;
+    border-bottom: solid #77a466 5px;
+}
+
+#summary h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+#summary p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/***BOTTOM SECTION***/
+
+#info {
+    height: 225px;
+    border-top: solid #dedbdc 1px;
+    border-bottom: solid #dedbdc 1px;
+}
+
+.third-width {
+    display: inline-block;
+    height: 225px;
+}
+
+#info h3 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#menu {
+    border-right: solid #dedbdc 1px;
+}
+
+#menu ul {
+    padding: 0 0;
+}
+
+#menu ul li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 36px;
+    list-style: none;
+}
+
+#reviews {
+    border-right: solid #dedbdc 1px;
+}
+
+#reviews h3 {
+    padding: 0 25px;
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 200;
+    padding: 0 25px;
+}
+
+#locations h3 {
+    padding: 0 0 0 25px;
+}
+
+#locations p {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0 0 0 25px;
+}
+
+/***FOOTER***/
+
+footer h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer h2 span {
+    font-family: 'Lily Script One';
+    font-size: 16px;
+    color: #77a466;
+    text-transform: lowercase;
+}
